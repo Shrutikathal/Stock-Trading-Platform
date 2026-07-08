@@ -1,7 +1,7 @@
 import React from 'react'
-function LeftSection() {
+function LeftSection({}) {
     return ( 
-        <h1>LeftSection</h1>
+        
      );
 }
 

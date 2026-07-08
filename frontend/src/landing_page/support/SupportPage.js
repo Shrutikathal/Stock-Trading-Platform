@@ -6,11 +6,13 @@ import OpenAccount from '../OpenAccount';
 import Footer from '../Footer';
 function SupportPage() {
     return ( 
-        <Navbar />
-        <Hero />
-        <CreateTicket />
-        <OpenAccount />
-        <Footer />
+        <>
+            {/* <Navbar /> */}
+            <Hero />
+            <CreateTicket />
+            <OpenAccount />
+            {/* <Footer /> */}
+        </>
      );
 }
 

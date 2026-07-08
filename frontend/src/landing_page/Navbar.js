@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -7,9 +8,9 @@ function NavBar() {
       <div className="container p-2">
         
         {/* Brand Logo */}
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           <img src="media/images/logo.svg" alt="Logo" style={{ width: "25%" }} />
-        </a>
+        </Link>
 
         {/* Mobile View Toggler */}
         <button
@@ -29,19 +30,29 @@ function NavBar() {
           {/* Changed me-auto to ms-auto and added gap-4 for spacing */}
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
             <li className="nav-item">
-              <a className="nav-link text-muted" href="#">Signup</a>
+              <Link className="nav-link text-muted" to="/signup">
+                Signup
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-muted" href="#">About</a>
+              <Link className="nav-link text-muted" to="/about">
+                About
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-muted" href="#">Product</a>
+              <Link className="nav-link text-muted" to="/products">
+                Product
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-muted" href="#">Pricing</a>
+              <Link className="nav-link text-muted" to="/pricing">
+                Pricing
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-muted" href="#">Support</a>
+              <Link className="nav-link text-muted" to="/support">
+                Support
+              </Link>
             </li>
           </ul>
         </div>

@@ -7,11 +7,11 @@ import Footer from '../Footer';
 function AboutPage() {
     return ( 
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <Hero />
             <Team />
             <OpenAccount />
-            <Footer />
+            {/* <Footer /> */}
         </>
      );
 }

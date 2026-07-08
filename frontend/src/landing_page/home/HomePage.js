@@ -19,14 +19,14 @@ function HomePage() {
         // They group elements together without adding extra nodes to the actual DOM.
 
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <Hero />
             <Awards />
             <Stats />
             <Pricing />
             <Education />
             <OpenAccount />
-            <Footer />
+            {/* <Footer /> */}
             
 
 

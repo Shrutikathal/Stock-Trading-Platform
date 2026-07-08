@@ -6,12 +6,13 @@ import OpenAccount from '../OpenAccount';
 import Footer from '../Footer';
 function PricingPage() {
     return ( 
-        <Navbar />
-        <Hero />
-        <Brokerage />
-        <OpenAccount />
-        <Footer />
-
+        <>
+            {/* <Navbar /> */}
+            <Hero />
+            <Brokerage />
+            <OpenAccount />
+            {/* <Footer /> */}
+        </>
      );
 }
 

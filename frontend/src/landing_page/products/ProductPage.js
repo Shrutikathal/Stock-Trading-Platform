@@ -8,12 +8,12 @@ import Footer from '../Footer';
 function ProductPage() {
     return ( 
         <>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Hero/>
         <LeftSection/>
         <RightSection/>
         <Universe/>
-        <Footer/>
+        {/* <Footer/> */}
         </>
      );
 }
