@@ -17,6 +17,13 @@ function ProductPage() {
         learnMore="" 
         googlePlay="" 
         appStore=""/>
+        <RightSection  
+        imageURL="media/images/console.png"
+        productName="Console" 
+        productDescription="The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations." 
+        learnMore="" 
+        
+        />
         <LeftSection imageURL="media/images/coin.png" 
         productName="Coin" 
         productDescription="Buy direct mutual funds online, commission-free, delivered directly to your Demat account. Enjoy the investment experience on your Android and iOS devices." 
@@ -31,7 +38,7 @@ function ProductPage() {
         learnMore="" 
         googlePlay="" 
         appStore=""/>
-        <RightSection/>
+        
         <Universe/>
         {/* <Footer/> */}
         </>
