@@ -10,7 +10,7 @@ function SupportPage() {
             {/* <Navbar /> */}
             <Hero />
             <CreateTicket />
-            <OpenAccount />
+            
             {/* <Footer /> */}
         </>
      );

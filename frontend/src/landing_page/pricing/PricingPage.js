@@ -9,8 +9,8 @@ function PricingPage() {
         <>
             {/* <Navbar /> */}
             <Hero />
-            <Brokerage />
             <OpenAccount />
+            <Brokerage />            
             {/* <Footer /> */}
         </>
      );
